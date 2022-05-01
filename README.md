@@ -1,2 +1,2 @@
-# crystal-computer
- custom computer architecture
+# CrystalPC
+ project to make a custom computer architecture

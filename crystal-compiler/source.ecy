@@ -1,0 +1,4 @@
+get x "enter x\n > ";
+x as int;
+x += 4;
+out x;

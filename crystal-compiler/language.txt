@@ -1,0 +1,8 @@
+ASSEMBLY:
+	commands:
+		ADD
+		SUB
+		NOT
+		OR
+		AND
+		MOV 
