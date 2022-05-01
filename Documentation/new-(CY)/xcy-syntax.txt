@@ -1,0 +1,4 @@
+
+# the syntax for a more advanced programming language (with classes / functions / objects)
+
+ - I don't intend to work on this for a while as it could be extremely complex to implement

@@ -1,0 +1,2 @@
+
+# the syntax for a basic programming language (will be a scripting language with a very simple syntax)

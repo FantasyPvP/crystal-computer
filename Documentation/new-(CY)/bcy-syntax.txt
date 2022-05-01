@@ -1,0 +1,4 @@
+
+# syntax for binary instructions (essentially the instruction set of the computer at a low level)
+
+ - to be worked on later

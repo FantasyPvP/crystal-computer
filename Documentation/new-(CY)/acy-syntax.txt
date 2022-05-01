@@ -1,0 +1,27 @@
+
+# the syntax for assembly language (translates directly into binary)
+
+
+
+binary | hex | assembly | command | args | usage
+
+example:
+00,0000 | 00 | LOL | arg1 -> arg2 | (example command)
+
+
+00,0001 | 01 | MOV | source destination | (moves a value from address 'source' to address 'destination')  (can be RAM or gp register)
+00,0010 | 02 | ADD | primary secondary  | (adds primary and secondary - returns to accumulator, primary is put on c-location stack)
+00,0011 | 03 | ADD | primary secondary  | (subtracts secondary from primary, returns to accumulator, primary is put on c-location stack)
+00,0100 | 04 | CMP | primary secondary  | (skips next line if primary < secondary)
+00,0101 | 05 | JMP | distance           | (jumps to memory location 'location')
+00,0110 | 06 | JMR | location           | (jumps to relative memory location (neg distance goes up code, pos goes down code))
+00,0111 | 07 | OUT | location           | (outputs memory location to user)
+00,1000 | 08 | SFT | location amount    | (binary shifts the value at location. uses twos complement (pos is left, neg is right) )
+
+
+
+
+00,0000 | 00 | LOL | arg1 -> arg2 | (example command)
+00,0000 | 00 | LOL | arg1 -> arg2 | (example command)
+00,0000 | 00 | LOL | arg1 -> arg2 | (example command)
+00,0000 | 00 | LOL | arg1 -> arg2 | (example command)
