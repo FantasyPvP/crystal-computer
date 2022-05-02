@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "3106d4732a6ec416",
+    "type": "split",
+    "children": [
+      {
+        "id": "f28b52a529b4b063",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a162bb3b347647da",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdeb06afecf048f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13f547ee84db1218",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a7388474af83cbf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d36c54adc201e069",
+    "type": "split",
+    "children": [
+      {
+        "id": "90c17a56425cc499",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b7a38a4002bfd7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f28b52a529b4b063",
+  "lastOpenFiles": [
+    "Virtual Machine/Untitled.md",
+    "programming languages/crystal (.xcy)/crystal.md",
+    "programming languages/crystal assembly (.acy)/crystal assembly.md",
+    "programming languages/crystal basic (.ecy)/crystal basic.md",
+    "programming languages/python.md",
+    "programming languages/Rust.md",
+    "programming languages/crystal binary (.bcy)/crystal binary.md",
+    "programming languages/Untitled.md",
+    "Programming languages to use.md"
+  ]
+}
