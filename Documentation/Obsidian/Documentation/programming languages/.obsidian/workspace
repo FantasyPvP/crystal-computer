@@ -1,32 +1,29 @@
 {
   "main": {
-    "id": "3106d4732a6ec416",
+    "id": "b92b08869713f6be",
     "type": "split",
     "children": [
       {
-        "id": "f28b52a529b4b063",
+        "id": "b8147d563663512d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "programming languages/crystal (.xcy)/syntax/standard functions.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a162bb3b347647da",
+    "id": "6e35cf24ac659b93",
     "type": "split",
     "children": [
       {
-        "id": "bdeb06afecf048f6",
+        "id": "9e1e6779eb4bba53",
         "type": "tabs",
         "children": [
           {
-            "id": "13f547ee84db1218",
+            "id": "6bddd65ff434f0b1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +31,7 @@
             }
           },
           {
-            "id": "8a7388474af83cbf",
+            "id": "cd180e91a1d0921f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,23 +49,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209
+    "width": 300
   },
   "right": {
-    "id": "d36c54adc201e069",
+    "id": "7d677b4fa3b560b3",
     "type": "split",
     "children": [
       {
-        "id": "90c17a56425cc499",
+        "id": "f3b30b44699d8635",
         "type": "tabs",
         "children": [
           {
-            "id": "d9b7a38a4002bfd7",
+            "id": "019a03ee5d4693c2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming languages/crystal (.xcy)/syntax/standard functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f28b52a529b4b063",
-  "lastOpenFiles": [
-    "programming languages/crystal (.xcy)/syntax/standard functions.md",
-    "programming languages/crystal (.xcy)/syntax/if, for, while, loop, else..md",
-    "programming languages/crystal basic (.ecy)/crystal basic.md",
-    "programming languages/crystal binary (.bcy)/crystal binary.md",
-    "programming languages/crystal assembly (.acy)/crystal assembly.md",
-    "programming languages/crystal (.xcy)/crystal.md",
-    "programming languages/crystal (.xcy)/crystal syntax overview.md",
-    "programming languages/python.md",
-    "programming languages/Rust.md",
-    "Virtual Machine/Untitled.md"
-  ]
+  "active": "b8147d563663512d",
+  "lastOpenFiles": []
 }

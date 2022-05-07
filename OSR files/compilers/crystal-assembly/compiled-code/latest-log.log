@@ -1,0 +1,52 @@
+logs for compilation of file: ./source-code/source.Cy
+
+source code:
+
+class ~main():
+    function @default():
+        INT num = $input("enter an integer")
+        while i, while i < num, i += 1:
+            $output(@secondary(i))
+            $output(STR "hello world")
+            INT out = @sus($input("enter another integer"))
+        &return()
+    function @secondary(i):
+        INT x = i + i
+        INT y = i - x
+        &return(y)
+    function @sus(sheesh):
+        loop i, while i < 100, i += 1
+            if sheesh < i:
+                $output(sheesh, "is smaller than", i)
+            else-if sheesh == i:
+                $output(sheesh, "is equal to", i)
+                &break-loop()
+            INT variable1 = $multiply(sheesh, sheesh)
+        &return(variable1)
+    INT var == sus + i i $output()
+
+
+list of tokens found in program:
+
+LVL-0 INBUILT-CLASS CLASS-main ( ) : 
+LVL-1     INBUILT-FUNCTION @default ( ) : 
+LVL-2         TYPE-INT VAR-num = $input ( STR-"enter an integer" ) 
+LVL-2         INBUILT-WHILE VAR-i INBUILT-WHILE VAR-i < VAR-num VAR-i += INT-1 : 
+LVL-3             $output ( @secondary ( VAR-i ) ) 
+LVL-3             $output ( TYPE-STR STR-"hello world" ) 
+LVL-3             TYPE-INT VAR-out = @sus ( $input ( STR-"enter another integer" ) ) 
+LVL-2         &return ( ) 
+LVL-1     INBUILT-FUNCTION @secondary ( VAR-i ) : 
+LVL-2         TYPE-INT VAR-x = VAR-i + 
+LVL-2         TYPE-INT VAR-y = VAR-i - 
+LVL-2         &return ( VAR-y ) 
+LVL-1     INBUILT-FUNCTION @sus ( VAR-sheesh ) : 
+LVL-2         INBUILT-LOOP VAR-i INBUILT-WHILE VAR-i < INT-100 VAR-i += 
+LVL-3             INBUILT-IF VAR-sheesh < VAR-i : 
+LVL-4                 $output ( VAR-sheesh STR-"is smaller than" VAR-i ) 
+LVL-3             INBUILT-ELSE - INBUILT-IF VAR-sheesh == VAR-i : 
+LVL-4                 $output ( VAR-sheesh STR-"is equal to" VAR-i ) 
+LVL-4                 &break-loop ( ) 
+LVL-3             TYPE-INT VAR-variable1 = $multiply ( VAR-sheesh VAR-sheesh ) 
+LVL-2         &return ( VAR-variable1 ) 
+LVL-1     TYPE-INT VAR-var == VAR-sus + VAR-i VAR-i $output ( ) 

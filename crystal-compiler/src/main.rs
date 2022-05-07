@@ -1,7 +1,9 @@
 
 use std::env;
 use std::fs;
-pub mod lib;
+pub mod crystal_acy;
+pub mod crystal_ecy;
+pub mod crystal_xcy;
 
 
 fn main() {
@@ -13,9 +15,9 @@ fn main() {
 	};
 
 	match &filename[filename.chars().count()-4..] {
-		".ecy" => lib::init_ecy(filename, &args[2] as &str),
-		".xcy" => lib::init_xcy(filename, &args[2] as &str),
-		".xcy" => lib::init_cay(filename),
+		".ecy" => crystal-ecy::init_ecy(filename, &args[2] as &str),
+		".xcy" => crystal-xcy::init_xcy(filename, &args[2] as &str),
+		".xcy" => crystal-acy::init_acy(filename),
 		".bcy" => panic!("why are you trying to compile a binary smh"),
 		_ => panic!("invalid file type (run with '--help' ?)"),
 	};

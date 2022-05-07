@@ -2,7 +2,7 @@ class ~main():
 
     function @default():
         INT num = $input("enter an integer")
-        loop i, while i < num, i += 1:
+        while i, while i < num, i += 1:
             $output(@secondary(i))
             $output(STR "hello world")
             INT out = @sus($input("enter another integer"))

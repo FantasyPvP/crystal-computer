@@ -1,6 +1,7 @@
 # Crystal
 - crystal should be a more advanced object oriented language. 
 - it is intended to be the permanent high level language to be used with this computer system.
+- compiles directly into [[crystal assembly]]
 - features:
 	- advanced functions
 	- string and list manipulation
